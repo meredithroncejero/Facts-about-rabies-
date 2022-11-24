@@ -1,2 +1,2 @@
 # Interesting Facts you might didn't know about rabies.
-Somme decription here.
+This website project will discusses the history, treatment, and symptoms of dog rabies.
