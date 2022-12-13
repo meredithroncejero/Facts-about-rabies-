@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00f6f6;
+    --primary: #662838;
     --secondary: #00f6f6;
     --light: #F3F3F3;
     --dark: #212121;
@@ -127,7 +127,7 @@
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: #00f6f6;
+    background: #662838;
 }
 
 .btn-play:before {
@@ -140,7 +140,7 @@
     display: block;
     width: 60px;
     height: 60px;
-    background: #00f6f6;
+    background: #662838;
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -155,7 +155,7 @@
     display: block;
     width: 60px;
     height: 60px;
-    background: #00f6f6;
+    background: #662838;
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -183,58 +183,6 @@
         opacity: 0;
     }
 }
-
-#videoModal .modal-dialog {
-    position: relative;
-    max-width: 800px;
-    margin: 60px auto 0 auto;
-}
-
-#videoModal .modal-body {
-    position: relative;
-    padding: 0px;
-}
-
-#videoModal .close {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    right: 0px;
-    top: -30px;
-    z-index: 999;
-    font-size: 30px;
-    font-weight: normal;
-    color: #FFFFFF;
-    background: #000000;
-    opacity: 1;
-}
-
-.service-item a i {
-    position: relative;
-    padding-left: 20px;
-    transition: .3s;
-}
-
-.service-item a:hover i {
-    padding-left: 50px;
-}
-
-.service-item a i::after {
-    position: absolute;
-    content: "";
-    width: 20px;
-    height: 2px;
-    top: 50%;
-    left: 10px;
-    margin-top: -1px;
-    background: var(--primary);
-    transition: .3s;
-}
-
-.service-item a:hover i::after {
-    width: 50px;
-}
-
 .team-carousel .owl-nav {
     position: absolute;
     width: 50px;
